@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF5DCDDC289CFB8A002430F8 /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = EF5DCDDB289CFB8A002430F8 /* SpringAnimation */; };
+		EF5DCDDE289D2631002430F8 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5DCDDD289D2631002430F8 /* Value.swift */; };
 		EFCA68B2289BEFA6001BC4B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA68B1289BEFA6001BC4B1 /* AppDelegate.swift */; };
 		EFCA68B4289BEFA6001BC4B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA68B3289BEFA6001BC4B1 /* SceneDelegate.swift */; };
 		EFCA68B6289BEFA6001BC4B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA68B5289BEFA6001BC4B1 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF5DCDDD289D2631002430F8 /* Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
 		EFCA68AE289BEFA6001BC4B1 /* SpringAppForHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringAppForHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCA68B1289BEFA6001BC4B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFCA68B3289BEFA6001BC4B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5DCDDC289CFB8A002430F8 /* SpringAnimation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +63,7 @@
 				EFCA68B1289BEFA6001BC4B1 /* AppDelegate.swift */,
 				EFCA68B3289BEFA6001BC4B1 /* SceneDelegate.swift */,
 				EFCA68B5289BEFA6001BC4B1 /* ViewController.swift */,
+				EF5DCDDD289D2631002430F8 /* Value.swift */,
 				EFCA68B7289BEFA6001BC4B1 /* Main.storyboard */,
 				EFCA68BA289BEFA7001BC4B1 /* Assets.xcassets */,
 				EFCA68BC289BEFA7001BC4B1 /* LaunchScreen.storyboard */,
@@ -83,6 +88,9 @@
 			dependencies = (
 			);
 			name = SpringAppForHomeWork;
+			packageProductDependencies = (
+				EF5DCDDB289CFB8A002430F8 /* SpringAnimation */,
+			);
 			productName = SpringAppForHomeWork;
 			productReference = EFCA68AE289BEFA6001BC4B1 /* SpringAppForHomeWork.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = EFCA68A5289BEFA6001BC4B1;
+			packageReferences = (
+				EF5DCDDA289CFB8A002430F8 /* XCRemoteSwiftPackageReference "SpringAnimation" */,
+			);
 			productRefGroup = EFCA68AF289BEFA6001BC4B1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,6 +152,7 @@
 				EFCA68B6289BEFA6001BC4B1 /* ViewController.swift in Sources */,
 				EFCA68B2289BEFA6001BC4B1 /* AppDelegate.swift in Sources */,
 				EFCA68B4289BEFA6001BC4B1 /* SceneDelegate.swift in Sources */,
+				EF5DCDDE289D2631002430F8 /* Value.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +316,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +344,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +370,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF5DCDDA289CFB8A002430F8 /* XCRemoteSwiftPackageReference "SpringAnimation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LexDeBash/SpringAnimation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF5DCDDB289CFB8A002430F8 /* SpringAnimation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF5DCDDA289CFB8A002430F8 /* XCRemoteSwiftPackageReference "SpringAnimation" */;
+			productName = SpringAnimation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EFCA68A6289BEFA6001BC4B1 /* Project object */;
 }
