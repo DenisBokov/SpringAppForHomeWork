@@ -43,28 +43,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EFA269EC289EAD8C001C5BC2 /* Extension */ = {
+		EFA269EC289EAD8C001C5BC2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				EFA269ED289EB169001C5BC2 /* Extension + AnimationViewController.swift */,
 			);
-			path = Extension;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		EFA269F1289EB51B001C5BC2 /* Model */ = {
+		EFA269F1289EB51B001C5BC2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				EF5DCDDD289D2631002430F8 /* Value.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		EFA269F2289EB52B001C5BC2 /* Controller */ = {
+		EFA269F2289EB52B001C5BC2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				EFCA68B5289BEFA6001BC4B1 /* AnimationViewController.swift */,
 			);
-			path = Controller;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EFA269F3289EBED6001C5BC2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EFCA68B7289BEFA6001BC4B1 /* Main.storyboard */,
+				EFCA68BC289BEFA7001BC4B1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EFA269F4289EBFB1001C5BC2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EFCA68B3289BEFA6001BC4B1 /* SceneDelegate.swift */,
+				EFCA68B1289BEFA6001BC4B1 /* AppDelegate.swift */,
+				EFCA68BF289BEFA7001BC4B1 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EFA269F5289EBFD6001C5BC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EFCA68BA289BEFA7001BC4B1 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		EFCA68A5289BEFA6001BC4B1 = {
@@ -86,15 +113,12 @@
 		EFCA68B0289BEFA6001BC4B1 /* SpringAppForHomeWork */ = {
 			isa = PBXGroup;
 			children = (
-				EFA269F2289EB52B001C5BC2 /* Controller */,
-				EFA269F1289EB51B001C5BC2 /* Model */,
-				EFA269EC289EAD8C001C5BC2 /* Extension */,
-				EFCA68B1289BEFA6001BC4B1 /* AppDelegate.swift */,
-				EFCA68B3289BEFA6001BC4B1 /* SceneDelegate.swift */,
-				EFCA68B7289BEFA6001BC4B1 /* Main.storyboard */,
-				EFCA68BA289BEFA7001BC4B1 /* Assets.xcassets */,
-				EFCA68BC289BEFA7001BC4B1 /* LaunchScreen.storyboard */,
-				EFCA68BF289BEFA7001BC4B1 /* Info.plist */,
+				EFA269F5289EBFD6001C5BC2 /* Resources */,
+				EFA269F4289EBFB1001C5BC2 /* App */,
+				EFA269F3289EBED6001C5BC2 /* Storyboards */,
+				EFA269F2289EB52B001C5BC2 /* Controllers */,
+				EFA269F1289EB51B001C5BC2 /* Models */,
+				EFA269EC289EAD8C001C5BC2 /* Extensions */,
 			);
 			path = SpringAppForHomeWork;
 			sourceTree = "<group>";
@@ -329,7 +353,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XL6Q59VDPK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SpringAppForHomeWork/Info.plist;
+				INFOPLIST_FILE = SpringAppForHomeWork/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -357,7 +381,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XL6Q59VDPK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SpringAppForHomeWork/Info.plist;
+				INFOPLIST_FILE = SpringAppForHomeWork/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

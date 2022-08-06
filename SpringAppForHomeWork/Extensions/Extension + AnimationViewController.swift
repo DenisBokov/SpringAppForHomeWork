@@ -34,7 +34,7 @@ extension AnimationViewController {
         
         objectAnimation.animation = getAnimationPreset().randomElement() ?? ""
         presetLabel.text = objectAnimation.animation
-        startButton.setTitle(springAnimationView.animation, for: .normal)
+        startButton.setTitle(objectAnimation.animation, for: .normal)
         objectAnimation.curve = getAnimationCurve().randomElement() ?? ""
         curveLabel.text = objectAnimation.curve
         
