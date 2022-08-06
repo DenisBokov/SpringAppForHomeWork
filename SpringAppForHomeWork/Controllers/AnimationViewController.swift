@@ -18,7 +18,7 @@ class AnimationViewController: UIViewController {
     @IBOutlet var forceLabel: UILabel!
     @IBOutlet var startButton: UIButton!
     
-    @IBAction func startSpringAnimation(_ sender: SpringButton) {
+    @IBAction func startSpringAnimation() {
         startAnimation(from: springAnimationView)
     }
 }

@@ -174,7 +174,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="startSpringAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iv0-Fk-Vto"/>
+                                    <action selector="startSpringAnimation" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gm8-KM-Cks"/>
                                 </connections>
                             </button>
                         </subviews>
